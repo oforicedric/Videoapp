@@ -1,0 +1,28 @@
+{
+  "name": "videochatapp",
+  "version": "1.0.0",
+  "description": "A video chat application using web-rtc",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "html",
+    "css",
+    "express",
+    "sockets",
+    "web-rtc"
+  ],
+  "author": "dapmas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "node-static": "^0.7.11",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
